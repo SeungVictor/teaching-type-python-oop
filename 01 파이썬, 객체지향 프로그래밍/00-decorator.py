@@ -9,6 +9,7 @@ def copyright(func):
     return new_func
 
 
+#바로위에다가 함수를 재정의 decorator를 사용해서
 @copyright
 def smile():
     print("🙃")
