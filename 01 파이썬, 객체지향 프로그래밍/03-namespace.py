@@ -66,8 +66,9 @@ print(siri.population)
 
 siri.how_many()
 
-
+#robot이 class이고 say_hi를 호출하려면 siri가 인자로들어가야함
 Robot.say_hi(siri)
+
 siri.say_hi()
 
 

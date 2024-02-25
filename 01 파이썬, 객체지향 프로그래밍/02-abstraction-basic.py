@@ -35,6 +35,7 @@ class Robot:
             print(f"There are still {Robot.population} robots working.")
 
     # 클래스 메서드
+    # 클래스 자체를 받아 calss의변수를 활용가능함 (self가 아닌 cls)
     @classmethod
     def how_many(cls):
         print(f"We have {cls.population} robots.")
